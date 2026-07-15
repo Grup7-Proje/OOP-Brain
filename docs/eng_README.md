@@ -22,22 +22,6 @@
 It was designed with the goals of achieving **zero memory leaks (0 memory leak)**, robust error handling, and maximum extensibility
 
 ---
-## My Role & Contributions
-
-In this collaborative multi-university project, I served as the **Math Engine Developer**, **Layer Implementation Specialist**, and **System Integration Lead**. My primary focus was building the mathematical foundation and orchestrating the runtime execution of the neural network.
-
-Here are my specific technical contributions to the `OOP-Brain` framework:
-
-* **Linear Algebra Math Engine (`Matrix.cpp/h`):** 
-    * Engineered the core matrix operations from scratch without external libraries.
-    * Implemented robust memory management using deep copy and move semantics, ensuring the project passed all tests with **0 memory leaks**.
-    * Developed operator overloading (`*`, `+`, `()`) for intuitive and high-performance matrix calculations during the forward pass.
-* **Layer Architecture (`DenseLayer.cpp/h`):** 
-    * Built the fully connected layer logic incorporating weights, biases, and activation function pointers.
-    * Designed the forward pass mathematical execution ($Z = W \cdot X + b$) utilizing method overriding derived from the base class.
-* **System Orchestration (`NeuralNetwork.cpp/h`):** 
-    * Led the integration of all system components, managing the polymorphic execution pipeline.
-    * Ensured seamless data flow across hidden layers and managed the final architectural testing and documentation processes.
 
 ## Key Features
 
